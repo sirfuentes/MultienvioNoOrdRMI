@@ -32,7 +32,6 @@ public class ObjectGroup {
                     return this.Members.get(i);
                 }
             }
-
             lock.unlock();
 
         return null;
